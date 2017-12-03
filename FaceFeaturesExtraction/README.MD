@@ -1,3 +1,3 @@
-use pip to install the follow modules
+use pip to install the modules:
 imutils
 dlib
