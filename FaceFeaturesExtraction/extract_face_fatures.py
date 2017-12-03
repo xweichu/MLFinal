@@ -42,5 +42,5 @@ def extract_features(image):
 		cv2.waitKey(0)
 	return landmarks
 
-image = cv2.imread('cda.jpg')
+image = cv2.imread('modernfamily.jpg')
 features = extract_features(image)
