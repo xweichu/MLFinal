@@ -1,6 +1,5 @@
 from imutils import face_utils
 import numpy as np
-import argparse
 import imutils
 import dlib
 import cv2
@@ -42,5 +41,5 @@ def extract_features(image):
 		cv2.waitKey(0)
 	return landmarks
 
-image = cv2.imread('modernfamily.jpg')
+image = cv2.imread('elven.png')
 features = extract_features(image)
